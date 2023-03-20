@@ -2,6 +2,7 @@
 set -euo pipefail
 
 pwd
+ls
 
 mkdir tempdir
 mkdir tempdir/templates
