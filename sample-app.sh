@@ -2,7 +2,7 @@
 set -euo pipefail
 
 rm -r tempdir
-docker rm samplerunning
+docker rm samplerunning --force
 
 mkdir tempdir
 mkdir tempdir/templates
