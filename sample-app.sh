@@ -2,9 +2,8 @@
 set -euo pipefail
 
 DIR=/tempdir
-[ -d "$DIR" ] && echo "$DIR directory exists."
+[ -d "$DIR" ] && rm -r tempdir
 
-rm -r tempdir
 docker rm samplerunning --force
 
 mkdir tempdir
