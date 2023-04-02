@@ -1,6 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 
+pwd
+ls
 DIR=/tempdir
 [ -d "$DIR" ] && rm -r tempdir
 
