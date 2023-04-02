@@ -3,7 +3,7 @@ set -euo pipefail
 
 pwd
 ls
-DIR=/tempdir
+DIR=/var/jenkins_home/workspace/BuildSampleApp/tempdir
 [ -d "$DIR" ] && rm -r tempdir
 
 docker rm samplerunning --force
