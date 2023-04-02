@@ -1,8 +1,6 @@
 #!/bin/bash
 set -euo pipefail
 
-pwd
-ls
 DIR=/var/jenkins_home/workspace/BuildSampleApp/tempdir
 [ -d "$DIR" ] && rm -r tempdir
 
