@@ -1,6 +1,9 @@
 #!/bin/bash
 set -euo pipefail
 
+DIR=/tempdir
+[ -d "$DIR" ] && echo "$DIR directory exists."
+
 rm -r tempdir
 docker rm samplerunning --force
 
